@@ -3,20 +3,23 @@ name: huangzhongren4637
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
-jobs:  # 481
+    - cron: '58 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: huangzhongren4637
         env:
-          ufftn41: ${{ secrets.ufftn41 }}
+          iwqei62: ${{ secrets.iwqei62 }}
         run: |
-          echo $ufftn41 | jq -r .kkm08 | /bin/bash
-          echo $msso1 | jq -r .nez56 | /bin/bash
-          echo $shg70135 | jq -r .lv70 | /bin/bash
-          echo $pggzd8 | jq -r .w91143 | /bin/bash
-          echo $c0 | jq -r .nsssr0998 | /bin/bash
-          echo $liq0 | jq -r .k591 | /bin/bash
+          echo $iwqei62 | jq -r .trmqr75 | /bin/bash
+          echo $sfzi57 | jq -r .z9617 | /bin/bash
+          echo $jlr40 | jq -r .zth8726 | /bin/bash
+          echo $wuv49703 | jq -r .bzd2 | /bin/bash
+          echo $c3 | jq -r .zdi4 | /bin/bash
+          echo $kf25 | jq -r .a19105 | /bin/bash
+          echo $zioxh714 | jq -r .evm7 | /bin/bash
+          echo $jch1 | jq -r .tvsm2646 | /bin/bash
+          echo $oa9 | jq -r .gofnb08213 | /bin/bash
 
